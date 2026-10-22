@@ -1,0 +1,6 @@
+- insert:
+    - id: hello-startup
+      name: dsh-hello-plugin/startup
+    - id: hello
+      name: dsh-hello-plugin
+      inject: [helloStartup]
